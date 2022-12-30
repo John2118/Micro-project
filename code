@@ -1,0 +1,7 @@
+CREATE TABLE STUDENT
+	( RollNo Varchar2(20) PRIMARY KEY,
+      FullName Varchar2(50),
+      Class Varchar(50),
+      BirthDate  Date,
+      Address  Varchar2(100),
+      EnrollmentDate  Date );
